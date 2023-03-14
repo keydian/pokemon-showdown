@@ -53,6 +53,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 		natDexTier: "LC",
+		lcDraftTier: "Tier 3"
 	},
 	wartortle: {
 		isNonstandard: "Past",
@@ -77,6 +78,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 		natDexTier: "LC",
+		lcDraftTier:"Tier 6"
 	},
 	metapod: {
 		isNonstandard: "Past",
@@ -116,6 +118,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 		natDexTier: "LC",
+		lcDraftTier:"Tier 5",
 	},
 	pidgeotto: {
 		isNonstandard: "Past",
@@ -396,6 +399,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 		natDexTier: "LC",
+		lcDraftTier: "Tier 4"
 	},
 	parasect: {
 		isNonstandard: "Past",
@@ -753,6 +757,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 		natDexTier: "LC",
+		lcDraftTier: "Tier 2"
 	},
 	steelix: {
 		isNonstandard: "Past",
