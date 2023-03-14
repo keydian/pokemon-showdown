@@ -88,7 +88,7 @@ export const Aliases: {[alias: string]: string} = {
 	mayhem: "[Gen 9] Random Battle Mayhem",
 	omotm: "[Gen 9] Fortemons",
 	lcotm: "[Gen 9] Tera Donation",
-	lcnatdextc: "[Gen 9] The Crew LC NatDex Draft",
+	lcnatdextc: "[Gen 9] LC NatDex Draft",
 
 	// mega evos
 	fabio: "Ampharos-Mega",
