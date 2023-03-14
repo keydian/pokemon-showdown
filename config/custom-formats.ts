@@ -6,7 +6,7 @@ export const Formats: FormatList = [
 },
 {
 	name: '[Gen 9] NatDex LC',
-	mod: 'gen9',
+	mod: 'natdexlcdraft',
 	ruleset: ['Little Cup', 'Standard NatDex'],
 	banlist: ['Dragon Rage', 'Sonic Boom'],
 
