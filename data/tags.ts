@@ -251,31 +251,6 @@ export const Tags: {[id: string]: TagData} = {
 		speciesFilter: species => species.natDexTier === 'RU',
 	},
 
-	// LC Draft Tiers
-	tier1:{
-		name: "Tier 1",
-		speciesFilter: species => species.lcDraftTier === "Tier 1",
-	},
-	tier2:{
-		name: "Tier 2",
-		speciesFilter: species => species.lcDraftTier === "Tier 2",
-	},
-	tier3:{
-		name: "Tier 3",
-		speciesFilter: species => species.lcDraftTier === "Tier 3",
-	},
-	tier4:{
-		name: "Tier 4",
-		speciesFilter: species => species.lcDraftTier === "Tier 4",
-	},
-	tier5:{
-		name: "Tier 5",
-		speciesFilter: species => species.lcDraftTier === "Tier 5",
-	},
-	tier6:{
-		name: "Tier 6",
-		speciesFilter: species => species.lcDraftTier === "Tier 6",
-	},
 	// Legality tags
 	past: {
 		name: "Past",
