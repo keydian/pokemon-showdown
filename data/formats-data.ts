@@ -3,7 +3,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 		natDexTier: "LC",
-		lcDraftTier: "Tier 1"
 	},
 	ivysaur: {
 		isNonstandard: "Past",

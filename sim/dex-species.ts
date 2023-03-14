@@ -28,7 +28,6 @@ export interface SpeciesFormatsData {
 	gmaxUnreleased?: boolean;
 	isNonstandard?: Nonstandard | null;
 	natDexTier?: TierTypes.Singles | TierTypes.Other;
-	lcDraftTier?: TierTypes.LCDraft;
 	tier?: TierTypes.Singles | TierTypes.Other;
 }
 
@@ -220,8 +219,6 @@ export class Species extends BasicEffect implements Readonly<BasicEffect & Speci
 	 */
 	readonly natDexTier: TierTypes.Singles | TierTypes.Other;
 
-	readonly lcDraftTier: TierTypes.LCDraft;
-
 	constructor(data: AnyObject) {
 		super(data);
 		// eslint-disable-next-line @typescript-eslint/no-this-alias
@@ -244,7 +241,6 @@ export class Species extends BasicEffect implements Readonly<BasicEffect & Speci
 		this.tier = data.tier || '';
 		this.doublesTier = data.doublesTier || '';
 		this.natDexTier = data.natDexTier || '';
-		this.lcDraftTier = data.lcDraftTier || '';
 		this.evos = data.evos || [];
 		this.evoType = data.evoType || undefined;
 		this.evoMove = data.evoMove || undefined;
