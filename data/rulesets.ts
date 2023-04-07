@@ -1349,17 +1349,7 @@ export const Rulesets: {[k: string]: FormatData} = {
 		},
 	},
 
-	hptblastlegality:{
-		effectType: 'ValidatorRule',
-		name:'HP/TB Legality',
-		desc:"Allow every Pokemon to learn Hidden Power AND Tera Blast",
-		checkCanLearn(move, species, setSources, set){
-		
-		return this.checkCanLearn(move, species, setSources, set);
-		},
-		
-		
-	},
+
 	stabmonsmovelegality: {
 		effectType: 'ValidatorRule',
 		name: 'STABmons Move Legality',
