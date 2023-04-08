@@ -1,6 +1,6 @@
 export const Rulesets: { [k: string]: FormatData; } = {
 
-hptblastlegality: {
+hptblegality: {
 	effectType: 'ValidatorRule',
 		name: 'HP TB Legality',
 			desc: "Allow every Pokemon to learn Hidden Power AND Tera Blast",
