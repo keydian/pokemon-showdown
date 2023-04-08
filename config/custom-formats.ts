@@ -7,8 +7,9 @@ export const Formats: FormatList = [
 {
 	name: '[Gen 9] National Dex LC',
 	mod: 'natdexlcdraft',
-	ruleset: ['Little Cup', 'Standard NatDex', 'HP TB Legality'],
-	banlist: ['Dragon Rage', 'Sonic Boom'],
+	ruleset: ['Little Cup', 'Standard NatDex', 'HP TB Legality', 'Z-Move Clause', 'Evasion Clause',
+	'Dynamax Clause'],
+	banlist: ['Dragon Rage', 'Sonic Boom', 'Baton Pass', 'Moody'],
 
 },
 
